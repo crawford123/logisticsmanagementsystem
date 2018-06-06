@@ -1,0 +1,75 @@
+@charset "utf-8";
+html {
+	text-align: center;
+	height: 100%;
+}
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+body {
+	font-family:"Microsoft Yahei", "Hiragino Sans GB", "Helvetica Neue", Helvetica, tahoma, arial, "WenQuanYi Micro Hei", Verdana, sans-serif, "\5B8B\4F53";
+	font-size: 12px;
+	text-decoration: none;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background: #f6f8f9;
+	position: relative;
+	height: auto;
+	width: 100%;
+}
+div,
+form,
+img,
+ul,
+li,
+input,
+p,
+ul,
+ol,
+li,
+form {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	list-style: none;
+}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{zoom:1}
+
+a{
+	text-decoration: none;
+}
+
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+.sto_orange{
+	color: #ed6900;
+}
+
+.sto_red{
+	color: #ff0000;
+}
+
+input[type=text],textarea{
+	font-family:"Microsoft Yahei", "Hiragino Sans GB", "Helvetica Neue", Helvetica, tahoma, arial, "WenQuanYi Micro Hei", Verdana, sans-serif, "\5B8B\4F53";
+}
+
+.mt40{
+	margin-top: 40px;
+}
+
+.ml70{
+	margin-left: 70px;
+}
+
+.mr6{
+	margin-right: 6px;
+}

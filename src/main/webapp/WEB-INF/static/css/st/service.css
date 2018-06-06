@@ -1,0 +1,803 @@
+@charset "utf-8";
+
+.inside_banner_service {
+    width: 100%;
+    height: 250px;
+    background: #a7ccf8 url("../../img/jd/bg.jpg") no-repeat center;
+}
+
+.inside_banner_wechat {
+    width: 100%;
+    height: 250px;
+    background: #dcdddd url("/css/images/img/wechat_banner.jpg") no-repeat center;
+}
+
+.inside_banner_alipay {
+    width: 100%;
+    height: 250px;
+    background: #dcdddd url("/css/images/img/alipay_banner.jpg") no-repeat center;
+}
+
+body{
+    background: #f3f3f3;
+}
+
+.w300{
+    width: 300px;
+}
+
+.w160{
+    width: 160px;
+}
+
+.w130{
+    width: 130px;
+}
+
+.service_box{
+    width: 100%;
+    background: white;
+    margin-top: 30px;
+}
+
+.service_box:first-child{
+    margin-top: 48px;
+}
+
+.form_group{
+    margin-bottom: 20px;
+
+}
+
+.form_group .inline_group{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.form_group .inline_group label{
+    display: inline-block;
+    width: 96px;
+    font-size: 16px;
+    color: #666464;
+    vertical-align: middle;
+}
+
+.form_group .inline_group label .sto_red{
+    margin-right: 4px;
+    color: #ff0000;
+}
+
+.form_group .inline_group input[type=text], .form_group .inline_group textarea{
+    display: inline-block;
+    padding: 14px 20px;
+    border: 1px solid #dedddd;
+    font-size: 16px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.form_group .inline_group input[type=text]:focus, .form_group .inline_group textarea:focus{
+    border:1px solid #ed6900;
+    outline: none;
+}
+
+.form_group .inline_group span{
+    display: inline-block;
+    font-size: 16px;
+    color: #666464;
+}
+
+.form_group .inline_group .get_code{
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    background: #666464;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 14px 20px;
+}
+
+.form_group .inline_group .get_code:hover{
+    background: #555555;
+}
+
+
+
+/*运费查询*/
+.search_cost{
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.search_cost:first-child{
+    padding-top: 50px;
+}
+
+.service_box .type_title{
+    font-size: 24px;
+    color: #ed6900;
+    margin-bottom: 30px;
+}
+
+.service_box .btn_search{
+    float: right;
+    margin-right: 40px;
+}
+
+.form_group .inline_group .area_box{
+    display: inline-block;
+    position: relative;
+}
+
+.form_group .inline_group .area_box span.city-picker-span{
+    display: none;
+}
+
+
+.search_cost table{
+    width: 100%;
+    border-collapse:collapse;
+    margin-top: 12px;
+    text-align: center;
+}
+.search_cost table td, .search_cost table th{
+    width: 33.33333%;
+    box-sizing: border-box;
+    font-size: 24px;
+    color: #666464;
+    padding: 18px 0;
+    border-right: 2px solid #ffffff;
+}
+.search_cost table td{
+    line-height: 18px;
+    background: #f3f3f3;
+}
+.search_cost table th{
+    background: #898989;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+
+/*在线下单*/
+.search_order{
+     padding: 30px 30px 70px;
+     box-sizing: border-box;
+     text-align: left;
+ }
+
+.search_order .type_title{
+    font-size: 24px;
+    color: #ed6900;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+/*.service_box .btn_search{
+    float: right;
+    margin-right: 40px;
+}*/
+
+.form_group .inline_group .area_box{
+    display: inline-block;
+    position: relative;
+}
+
+.form_group .inline_group .area_box span.city-picker-span{
+    display: none;
+}
+
+
+.praise_type{
+    display: inline-block;
+}
+
+.praise_type label{
+    width: auto !important;
+    margin-right: 20px;
+}
+
+.comment_filter .praise_type .f-radio{
+    display: inline-block;
+    padding-left: 20px;
+    margin-right: 0;
+    vertical-align: middle;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.f-radio .icon-radio{
+    float: left;
+    width: 18px;
+    height: 18px;
+    background: url('../../img/st/icon-radio.png') no-repeat;
+    margin-right: 5px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.f-radio:hover .icon-radio{
+    background: url('../../img/st/icon-radio.png') no-repeat 0 -20px;
+}
+
+.f-radio.checked .icon-radio{
+    background: url('../../img/st/icon-radio.png') no-repeat 0 -40px;
+}
+
+.btn_box{
+    width: 100%;
+}
+
+.btn_box .btn_search{
+    float: right;
+    margin: 50px 40px 120px 0;
+}
+
+
+/*网点查询*/
+
+.service_net{
+    background: none;
+    text-align: left;
+}
+
+.service_net .btn_search{
+    margin-left: 130px;
+}
+
+.net_map{
+    width: 100%;
+    height: auto;
+}
+
+.search_cont_cont .net_count{
+    width: 100%;
+    border-bottom: 1px solid #ed6900;
+    position: relative;
+}
+
+.search_cont_cont .net_count .count_data{
+    font-size: 16px;
+    color: #ed6900;
+    line-height: 28px;
+    margin-bottom: 6px;
+    padding-left: 24px;
+    background: url("/css/images/img/search_count.png") no-repeat left center;
+}
+
+.net_a_courier{
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    background: white;
+}
+
+.net_a_courier ul li{
+    float: left;
+    display: block;
+    padding: 8px 12px;
+    border-bottom: 1px solid #ed6900;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.net_a_courier ul li:hover{
+    color: #ed6900;
+}
+
+.net_a_courier ul li.active{
+    color: #ed6900;
+    border: 1px solid #ed6900;
+    border-bottom: none;
+}
+
+.search_cont_cont .net_courier{
+    text-align: left;
+}
+
+.search_cont_cont .net_list .net_list_tmp a{
+    display: inline-block;
+    width: 199px;
+    height: 48px;
+    background: #ec6800;
+    color: #ffffff;
+    margin-right: 10px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 48px;
+    margin-top: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.search_cont_cont .net_list a:hover, .search_cont_cont .courier_list a:hover{
+    background: #c95901;
+}
+
+.search_cont_cont .net_list a:nth-child(4n), .search_cont_cont .courier_list a:nth-child(4n){
+    margin-right: 0;
+}
+
+.net_courier{
+    display: none;
+}
+
+.net_courier.show{
+    display: block;
+}
+
+.search_cont_cont .courier_list .courier_list_temp a{
+    display: inline-block;
+    width: 199px;
+    height: 48px;
+    background: #ec6800;
+    color: #ffffff;
+    margin-right: 10px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 2px;
+    box-sizing: border-box;
+}
+
+.net_tab ul{
+    margin-left: 220px;
+}
+
+.net_tab ul li{
+    float: left;
+    height: 36px;
+    color: #4a4a4a;
+    line-height: 36px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 190px;
+    cursor: pointer;
+    background: white;
+    border-top: 1px solid #ed6900;
+    border-bottom: 1px solid #ed6900;
+    border-left: 1px solid #ed6900;
+}
+
+.net_tab ul li:last-child{
+    border-right: 1px solid #ed6900;
+}
+
+.net_tab ul li.active{
+    color: white;
+    background: #ed6900;
+}
+
+.net_group{
+    height: auto;
+    width: 100%;
+    display: none;
+}
+
+.net_group.show{
+    display: block;
+}
+
+.net_info{
+    width: 100%;
+    text-align: left;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.net_info table td{
+    padding: 10px;
+    line-height: 24px;
+    border-bottom: 1px dotted #cbcbcb;
+    color: #4a4a4a;
+}
+
+.net_info table tr td:first-child{
+    font-weight: 600;
+    color: #4a4a4a;
+    text-align: right;
+}
+
+.net_info table td.net_name{
+    vertical-align: middle;
+    background: #fee7d5;
+}
+
+.net_info table td.net_name .btn_order, .courier_info_name .btn_order{
+    font-size: 14px;
+    padding: 8px 24px;
+    line-height: 16px;
+    margin-bottom: 0;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    vertical-align: middle;
+    background: #ed6900;
+    border:1px solid #c95901;
+    color: #ffffff;
+}
+.net_info table td.net_name .btn_order:hover, .courier_info_name .btn_order:hover{
+    background: #c95901;
+}
+
+
+
+.net_info table td.net_name span{
+    font-size: 14px;
+    display: inline-block;
+    line-height: 34px;
+}
+
+/*快递员列表*/
+
+
+.net_courier_list{
+    width: 100%;
+}
+
+.net_courier_list li{
+    margin-top: 20px;
+    float: left;
+    text-align: left;
+    width: calc( 100% - 100px );
+    border-bottom: 1px solid #ededed;
+    padding-left: 80px;
+    background: url("/css/images/icon/icon_stologo.png") no-repeat left top;
+    background-size: 8% auto;
+}
+
+.net_courier_list li a .name{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 36px;
+    color: #4a4a4a;
+    margin-right: 20px;
+}
+
+.net_courier_list li .phone_number{
+    display: inline-block;
+    color: #666666;
+    font-size: 12px;
+    line-height: 24px;
+    padding-left: 20px;
+    background: url("/css/images/icon/icon_phone_number.png") no-repeat left center;
+}
+
+.net_courier_list li p{
+    color: #666666;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 6px 0 16px;
+    min-height: 18px;
+}
+
+.net_courier_list li:hover {
+    cursor: pointer;
+}
+
+.net_courier_list li:hover .name, .net_courier_list li:hover .phone_number,  .net_courier_list li:hover p{
+    cursor: pointer;
+    color: #ed6900;
+}
+
+/*快递员信息*/
+
+.courier_img img{
+    width: 80px;
+    height: 80px;
+}
+
+.courier_info{
+    width: 730px;
+    height: auto;
+    text-align: left;
+}
+
+.courier_info_name{
+    position: relative;
+    min-height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #ededed;
+}
+
+.courier_info_name .name{
+    font-size: 18px;
+    line-height: 48px;
+    padding-right: 160px;
+}
+
+.courier_info_name p{
+    font-size: 14px;
+    color: #ed6900;
+}
+
+.courier_info_name .btn_order{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.courier_info_nor_box{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ededed;
+}
+
+.courier_info_nor{
+    color: #666666;
+    margin: 20px 0;
+}
+
+.courier_info_nor li{
+    padding: 10px 0 10px 48px;
+}
+
+.courier_info_nor li.belong_net{
+    background: url("/css/images/img/img_belong_net.png") no-repeat left center;
+}
+
+.courier_info_nor li.belong_net a{
+    color: #3598dc;
+}
+
+.courier_info_nor li.courier_number{
+    background: url("/css/images/img/img_headimg.png") no-repeat left center;
+}
+
+.courier_info_nor li.courier_phone_number{
+    background: url("/css/images/img/img_phone.png") no-repeat left center;
+}
+
+.courier_info_nor li.courier_comment{
+    background: url("/css/images/img/img_comment.png") no-repeat left center;
+}
+
+.courier_info_nor_box .courier_code{
+    margin: 20px 0;
+}
+
+.courier_info_nor_box .courier_code img{
+    width: 134px;
+    height: 134px;
+    border: 1px solid #ededed;
+}
+
+.courier_info .send_area{
+    margin-top: 20px;
+    color: #666666;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+/*95543服务热线*/
+.service_hotline{
+    text-align: left;
+    padding: 50px 30px;
+    box-sizing: border-box;
+}
+
+.service_hotline p{
+    font-size: 16px;
+    color: #666464;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.service_hotline p img{
+    vertical-align: middle;
+}
+
+.service_hotline table{
+    width: 100%;
+    border-collapse:collapse;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.service_hotline table td, .service_hotline table th{
+    width: 25%;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #666464;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+.service_hotline table td{
+    line-height: 18px;
+    background: #f3f3f3;
+    padding: 4px 0;
+    color: #666464;
+    font-weight: 600;
+}
+
+.service_hotline table th{
+    background: #ed6900;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+/*自助服务*/
+.service_self_help{
+    text-align: center;
+    padding: 50px 30px;
+    box-sizing: border-box;
+}
+
+.service_self_help p{
+    font-size: 16px;
+    color: #666464;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.service_self_help img{
+    padding: 6px;
+}
+
+/*寄件须知*/
+
+.notice_box{
+    padding: 30px 30px 70px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.no_send_list{
+    position: relative;
+}
+
+.no_send_list .cont_img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.no_send_cont{
+    padding-left: 100px;
+}
+
+.no_send_cont h4{
+    font-size: 14px;
+    color: #ed6900;
+    margin: 10px 0 8px;
+    text-align: left;
+}
+
+.no_send_cont p{
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 16px;
+    text-align: left;
+    line-height: 24px;
+}
+
+.no_send_cont.left_pad{
+    padding-left: 0;
+}
+
+/*微信下单、支付宝下单等*/
+.wechat{
+    background: none;
+}
+
+.wechat h4{
+    font-size: 24px;
+    color: #ed6900;
+    margin: 10px 0 8px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.wechat h5{
+    font-size: 20px;
+    color: #ed6900;
+    margin: 10px 0 8px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.wechat h4 .list_numb{
+    font-size: 24px;
+    border-radius: 16px;
+    display: inline-block;
+    color: #ffffff;
+    background: #ed6900;
+    width: 32px;
+    text-align: center;
+    margin-right: 6px;
+}
+
+.wechat p{
+    font-size: 16px;
+    color: #666666;
+    text-align: left;
+    line-height: 24px;
+    padding-left: 38px;
+    margin: 16px 0;
+}
+
+.wechat p.pic_explain {
+    font-size: 16px;
+    color: #666464;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.wechat img.border_frame {
+    padding: 4px;
+    border: 1px solid #e6e6e6;
+}
+
+
+.service_suggestionsinfo{
+    background: none;
+    text-align: left;
+}
+.suggestionsinfo_box{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.suggestionsinfo_box:first-child{
+    margin-top: 48px;
+}
+
+.suggestionsinfo_box .type_title{
+    font-size: 24px;
+    color: #ed6900;
+    margin-bottom: 30px;
+}
+/*投诉与建议*/
+.service_suggestionsinfo ul li{ float:left; width:550px; margin-top:18px; display:inline;}
+.service_suggestionsinfo label{ float:left; width:90px; text-align:right; line-height:28px; font-size:14px; color:#454545;}
+.service_suggestionsinfo .txt{ float:left; width:250px; height:28px; line-height:28px; border: solid 1px #bcbcbc; background:url(/css/images/img/txtbg.png) no-repeat left top; margin:0 7px; display:inline; padding:0 3px;}
+.service_suggestionsinfo .txtcode{ width:200px;}
+.service_suggestionsinfo li span{ float:left; line-height:28px; color:#ff0000;}
+.service_suggestionsinfo li em{ font-style:normal; font-size:12px; display:block; text-align:center;}
+.service_suggestionsinfo .thing{ line-height:18px;}
+.service_suggestionsinfo  textarea{ float:left; width:405px; height:210px; background:url(/css/images/img/txtbg.png) no-repeat left top; border: solid 1px #bcbcbc; margin:0 7px; padding:0 3px; line-height:20px;}
+.service_suggestionsinfo .btnli{ padding-top:10px;}
+.service_suggestionsinfo .btn_submit, .service_suggestionsinfo .btn_reset{ width:96px; height:31px; cursor:pointer; float:left; border:0; display:inline;}
+.service_suggestionsinfo .btn_submit{ background-color:#ed7801;margin-left:6px; font-size:16px; font-weight:bold; color:#FFF;}
+.service_suggestionsinfo .btn_reset{ background-color:#999; margin-left:30px; font-size:16px; font-weight:bold; color:#FFF;}
+/**{margin:0;padding:0;font-family:"Microsoft YaHei" !important;font-size:12px;}*/
+/*投诉与建议*/
+
+/*全国投诉服务热线*/
+.network_search{
+	height:70px; line-height:70px; background:#f2f2f2; border-bottom:1px solid rgb(237, 120, 1); margin-top:-10px; 
+}
+.network_search_smallmap{ background:url(/css/images/img/network_search_smallmap.jpg) left center no-repeat; width:40px; height:70px; float:left}
+.network_searchselect{float:left; height:70px;}
+.network_searchselect select{
+	width:180px; height:25px; line-height:25px; font-size:14px; margin:25px 10px 0px 10px;
+}
+.network_searchinput,.network_searchsubmit{
+	float:left; height:70px;
+}
+.network_searchinput .searchinput{
+	width:150px; height:25px; font-size:14px; margin:25px 10px 0px 10px;
+}
+.network_searchsubmit .searchsubmit{
+	margin:25px 10px 0px 10px;
+}
+.complai_table{ border-collapse:collapse; width:100%; margin-top:4px;}
+.complai_table th{ height:31px; line-height:31px; background:#ec7721; color:#fff; font-weight:bold; font-size:14px; text-align:center; border-right: solid 1px #fff;}
+.complai_table td{ padding:8px 0; font-size:14px; color:#000; border: solid 1px #ececec; padding-left:15px;}
+.complai_table .tel_num{ text-align:center; border-right:0;}
+.complai_table .nolftbor{ border-left:0;}
+.uploaf_file_img{width:800px;margin-top:-55px;margin-left:130px;}
+.upload_file_img_content{width:1000px;min-height:280px;}
+.upload_file_img_content a{text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:none;width:50px;background-color:#ee6900;color:#fff;padding:5px 10px 5px 10px;border-radius:5px;}
+.upload_file_img_content span{float:left;}
